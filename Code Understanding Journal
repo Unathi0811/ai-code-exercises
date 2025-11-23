@@ -1,0 +1,16 @@
+Code Understanding Journal
+
+Environment Setup
+I installed JAVA 17, so I can satisfy the compatibility issue I had with Gradle
+Learnt that you can specify the kind of version you want for a specific project, since I wanted version 17, I had to specify like so
+
+Main Files Identification
+build.gradle.kts	          The Gradle build config file
+settings.gradle.kts	          They define the whole Gradle project settings like the project name etc
+Gradlew and gradlew.bat	          These are the scripts that all you to run Gradle commands without installing in, the first one being for MacOS and the second for windows
+gradle/wrapper/	                  The wrapper contains files that ensure that as a team we keep Gradle versions consistent
+src/main/java/...	          This is where the actual application logic lives, that’s where you have your packages, models, services, DTO’s and more
+src/test/java/...	          This has unit tests, to ensure the application works as expected
+README.md	                  It provides build actions and includes a list of commands you have access to. 
+
+In conclusion this application is a command line driven, judging by the listed commands in the md file.
